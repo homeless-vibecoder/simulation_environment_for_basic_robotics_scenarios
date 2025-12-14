@@ -1,0 +1,5 @@
+{
+  "name": "composed_generic",
+  "environment": "../assets/environments/generic_world.json",
+  "robot": "../assets/robots/generic_robot.json"
+}

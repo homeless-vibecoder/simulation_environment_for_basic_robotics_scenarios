@@ -1,0 +1,64 @@
+{
+  "panels": {
+    "code": {
+      "rect": [
+        550,
+        70,
+        720,
+        670
+      ],
+      "dock": "right",
+      "visible": false
+    },
+    "devices": {
+      "rect": [
+        865,
+        195,
+        382,
+        453
+      ],
+      "dock": "floating",
+      "visible": false
+    },
+    "state": {
+      "rect": [
+        20,
+        340,
+        520,
+        616
+      ],
+      "dock": "bottom",
+      "visible": false
+    },
+    "logs": {
+      "rect": [
+        20,
+        338,
+        720,
+        218
+      ],
+      "dock": "left",
+      "visible": false
+    },
+    "console": {
+      "rect": [
+        386,
+        351,
+        496,
+        318
+      ],
+      "dock": "floating",
+      "visible": false
+    },
+    "plot": {
+      "rect": [
+        400,
+        70,
+        420,
+        260
+      ],
+      "dock": "floating",
+      "visible": false
+    }
+  }
+}

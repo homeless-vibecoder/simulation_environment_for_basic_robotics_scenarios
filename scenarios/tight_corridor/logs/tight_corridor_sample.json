@@ -1,0 +1,666 @@
+{
+  "scenario": "tight_corridor",
+  "steps": 240,
+  "sample": [
+    {
+      "step": 0,
+      "time": 0.0,
+      "pose": {
+        "x": 3.1070276576761948e-06,
+        "y": -1.099837076023392,
+        "theta": 1.5707987865251256
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": 1.0,
+          "lateral_slip": 0.0,
+          "wheel_speed": 0.07999999999999999,
+          "contact_speed": 0.0,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.0,
+          "normal_load": 9.3195,
+          "step": 0
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": 0.9045772417153995,
+          "lateral_slip": 0.000505555555555552,
+          "wheel_speed": 0.07999999999999999,
+          "contact_speed": 0.00763382066276803,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0003559810582664172,
+          "normal_load": 4.65975,
+          "step": 0
+        }
+      }
+    },
+    {
+      "step": 12,
+      "time": 0.09999999999999999,
+      "pose": {
+        "x": 4.61722642184217e-05,
+        "y": -1.0854664030857037,
+        "theta": 1.5706875952195034
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": 0.20085595036268597,
+          "lateral_slip": -0.0004337918631030889,
+          "wheel_speed": 0.2855264670674728,
+          "contact_speed": 0.2281767771709354,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.0003054494897699329,
+          "normal_load": 9.3195,
+          "step": 12
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": 0.19783727144153687,
+          "lateral_slip": 0.00039710758977978263,
+          "wheel_speed": 0.2941681599151068,
+          "contact_speed": 0.2359707338125244,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.00027961868582393587,
+          "normal_load": 4.65975,
+          "step": 12
+        }
+      }
+    },
+    {
+      "step": 24,
+      "time": 0.19999999999999998,
+      "pose": {
+        "x": 9.373378966093443e-05,
+        "y": -1.0491081436025427,
+        "theta": 1.570515339189098
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.021556274450350466,
+          "lateral_slip": -0.0003577042661000025,
+          "wheel_speed": 0.43398536648140135,
+          "contact_speed": 0.4435465782537531,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.0002518732942273026,
+          "normal_load": 9.3195,
+          "step": 24
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.03336600761153548,
+          "lateral_slip": 0.00041612948903055856,
+          "wheel_speed": 0.4354522939052431,
+          "contact_speed": 0.4504831170164833,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0002930127347095965,
+          "normal_load": 4.65975,
+          "step": 24
+        }
+      }
+    },
+    {
+      "step": 36,
+      "time": 0.3000000000000001,
+      "pose": {
+        "x": 0.00017606542255775936,
+        "y": -0.9920458845982346,
+        "theta": 1.5697527232893569
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.11684555782711994,
+          "lateral_slip": -0.0003006109147413098,
+          "wheel_speed": 0.5709166786170099,
+          "contact_speed": 0.6464516865389341,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.00021167167560536947,
+          "normal_load": 9.3195,
+          "step": 36
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.12453225147798365,
+          "lateral_slip": 0.0004304028268702256,
+          "wheel_speed": 0.5711244274610999,
+          "contact_speed": 0.6523648968511799,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0003030631393650755,
+          "normal_load": 4.65975,
+          "step": 36
+        }
+      }
+    },
+    {
+      "step": 48,
+      "time": 0.4000000000000004,
+      "pose": {
+        "x": 0.00037211420979694267,
+        "y": -0.9154883860447048,
+        "theta": 1.5682691287899286
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.16822550752046295,
+          "lateral_slip": -0.0003221306915912477,
+          "wheel_speed": 0.696234431835007,
+          "contact_speed": 0.8370471060726059,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.0002268245759197173,
+          "normal_load": 9.3195,
+          "step": 48
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.16686425458720794,
+          "lateral_slip": 0.00042502288265774306,
+          "wheel_speed": 0.7022702321191391,
+          "contact_speed": 0.8429241404966806,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0002992749142864899,
+          "normal_load": 4.65975,
+          "step": 48
+        }
+      }
+    },
+    {
+      "step": 60,
+      "time": 0.5000000000000007,
+      "pose": {
+        "x": 0.0007211023647181865,
+        "y": -0.8205739319812625,
+        "theta": 1.5670872375828502
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.19467754081728597,
+          "lateral_slip": -0.0002823079232737321,
+          "wheel_speed": 0.8185768186929739,
+          "contact_speed": 1.0164584501017284,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.0001987838372650121,
+          "normal_load": 9.3195,
+          "step": 60
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.1962988900436575,
+          "lateral_slip": 0.00043497857473712414,
+          "wheel_speed": 0.8217189527973423,
+          "contact_speed": 1.022418586484195,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0003062850989501677,
+          "normal_load": 4.65975,
+          "step": 60
+        }
+      }
+    },
+    {
+      "step": 72,
+      "time": 0.6000000000000003,
+      "pose": {
+        "x": 0.001266745361823913,
+        "y": -0.7083744727939908,
+        "theta": 1.5657450273548603
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.21344135321392413,
+          "lateral_slip": -0.000249263269979527,
+          "wheel_speed": 0.9324684573742776,
+          "contact_speed": 1.1855040449741385,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.00017551582938644898,
+          "normal_load": 9.3195,
+          "step": 72
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.21481729671891564,
+          "lateral_slip": 0.00044323973806067486,
+          "wheel_speed": 0.9354092408589291,
+          "contact_speed": 1.1913268554568066,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0003121021009198082,
+          "normal_load": 4.65975,
+          "step": 72
+        }
+      }
+    },
+    {
+      "step": 84,
+      "time": 0.7,
+      "pose": {
+        "x": 0.002066427835887783,
+        "y": -0.579899569244986,
+        "theta": 1.5641808275506162
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.22687866808980828,
+          "lateral_slip": -0.00019225075890246662,
+          "wheel_speed": 1.0397178866333576,
+          "contact_speed": 1.344831456227539,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.00013537113350760467,
+          "normal_load": 9.3195,
+          "step": 84
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.22794351225566467,
+          "lateral_slip": 0.0004574928658299393,
+          "wheel_speed": 1.042450535508202,
+          "contact_speed": 1.35022573096155,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0003221382748895187,
+          "normal_load": 4.65975,
+          "step": 84
+        }
+      }
+    },
+    {
+      "step": 96,
+      "time": 0.7999999999999996,
+      "pose": {
+        "x": 0.0031932091480713367,
+        "y": -0.4361001483472429,
+        "theta": 1.5626274776192963
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.23768926368865742,
+          "lateral_slip": -0.0002509049893696779,
+          "wheel_speed": 1.1391462106068333,
+          "contact_speed": 1.4943331588361413,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.00017667182698050208,
+          "normal_load": 9.3195,
+          "step": 96
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.23704168251740007,
+          "lateral_slip": 0.0004428293082131395,
+          "wheel_speed": 1.1447189528097068,
+          "contact_speed": 1.5003689278684786,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.00031181310152129656,
+          "normal_load": 4.65975,
+          "step": 96
+        }
+      }
+    },
+    {
+      "step": 108,
+      "time": 0.8999999999999992,
+      "pose": {
+        "x": 0.004612061119529114,
+        "y": -0.277870966797133,
+        "theta": 1.5617110398693177
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.24391916389312204,
+          "lateral_slip": -0.00023909395342491986,
+          "wheel_speed": 1.2363673341801442,
+          "contact_speed": 1.6352316778008826,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.00016835522353576815,
+          "normal_load": 9.3195,
+          "step": 108
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.24607659216571862,
+          "lateral_slip": 0.0004457820671993247,
+          "wheel_speed": 1.237659245132739,
+          "contact_speed": 1.6416246428639696,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.000313892252382477,
+          "normal_load": 4.65975,
+          "step": 108
+        }
+      }
+    },
+    {
+      "step": 120,
+      "time": 0.9999999999999989,
+      "pose": {
+        "x": 0.006298774943917023,
+        "y": -0.1060545051798167,
+        "theta": 1.5607781578143007
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.2503969603450033,
+          "lateral_slip": -0.00021703712758500485,
+          "wheel_speed": 1.3254215095795876,
+          "contact_speed": 1.768164534377569,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.00015282416642798367,
+          "normal_load": 9.3195,
+          "step": 120
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.25185769213032744,
+          "lateral_slip": 0.00045129627365930736,
+          "wheel_speed": 1.327485027542528,
+          "contact_speed": 1.7743750267546397,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.00031777501665942586,
+          "normal_load": 4.65975,
+          "step": 120
+        }
+      }
+    },
+    {
+      "step": 132,
+      "time": 1.0999999999999985,
+      "pose": {
+        "x": 0.02459971656298996,
+        "y": 0.07317633200750114,
+        "theta": 1.5588333027891468
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.2537011187677033,
+          "lateral_slip": -0.00020328757967403785,
+          "wheel_speed": 1.4151289273584593,
+          "contact_speed": 1.8961959651095595,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.0001431425823523182,
+          "normal_load": 9.3195,
+          "step": 132
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.2589648474981557,
+          "lateral_slip": 0.0004547336606370439,
+          "wheel_speed": 1.408033064187698,
+          "contact_speed": 1.900089434939719,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.00032019541267833856,
+          "normal_load": 4.65975,
+          "step": 132
+        }
+      }
+    },
+    {
+      "step": 144,
+      "time": 1.1999999999999982,
+      "pose": {
+        "x": 0.03038970476303453,
+        "y": 0.2751006778530319,
+        "theta": 1.5522928870812918
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.2624256720918218,
+          "lateral_slip": 0.002206487752009524,
+          "wheel_speed": 1.572737279008057,
+          "contact_speed": 2.1323102221690253,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0015536726604637786,
+          "normal_load": 9.3195,
+          "step": 144
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.26940316212216214,
+          "lateral_slip": 0.001057177493557937,
+          "wheel_speed": 1.5508788902050676,
+          "contact_speed": 2.122756094469147,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0007443992233823647,
+          "normal_load": 4.65975,
+          "step": 144
+        }
+      }
+    },
+    {
+      "step": 156,
+      "time": 1.2999999999999978,
+      "pose": {
+        "x": 0.03569729761474582,
+        "y": 0.48584020390561017,
+        "theta": 1.5393180889498297
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.2621151052985049,
+          "lateral_slip": 0.002547466625210007,
+          "wheel_speed": 1.6507887478231968,
+          "contact_speed": 2.2371900545423267,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0017937689640144586,
+          "normal_load": 9.3195,
+          "step": 156
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.27103103970928677,
+          "lateral_slip": 0.001142422211858049,
+          "wheel_speed": 1.6230462453517422,
+          "contact_speed": 2.2264956860501584,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0008044232992700283,
+          "normal_load": 4.65975,
+          "step": 156
+        }
+      }
+    },
+    {
+      "step": 168,
+      "time": 1.3999999999999975,
+      "pose": {
+        "x": 0.041791719945507975,
+        "y": 0.5310142817535085,
+        "theta": 1.5238351670130865
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.26562061452924035,
+          "lateral_slip": 0.0031565653571062613,
+          "wheel_speed": 1.7162647729162945,
+          "contact_speed": 2.337027436869182,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0022226587443490665,
+          "normal_load": 9.3195,
+          "step": 168
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.2726382719259043,
+          "lateral_slip": 0.0012946968948321091,
+          "wheel_speed": 1.6897451492012252,
+          "contact_speed": 2.3231152863587186,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0009116457443536779,
+          "normal_load": 4.65975,
+          "step": 168
+        }
+      }
+    },
+    {
+      "step": 180,
+      "time": 1.4999999999999971,
+      "pose": {
+        "x": 0.055149727620971145,
+        "y": 0.5650786618348645,
+        "theta": 1.5061292402410897
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.2668477949970169,
+          "lateral_slip": 0.0039016572349613865,
+          "wheel_speed": 1.7824733577181393,
+          "contact_speed": 2.431245988970171,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.002747306515043842,
+          "normal_load": 9.3195,
+          "step": 180
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.27573588941255534,
+          "lateral_slip": 0.0014809698642958835,
+          "wheel_speed": 1.748298402117665,
+          "contact_speed": 2.41389622454112,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.001042807687027367,
+          "normal_load": 4.65975,
+          "step": 180
+        }
+      }
+    },
+    {
+      "step": 192,
+      "time": 1.5999999999999968,
+      "pose": {
+        "x": 0.11746498007204792,
+        "y": 1.3998237397267557,
+        "theta": 1.4936112849762067
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.5296790847286764,
+          "lateral_slip": 0.04758450747422849,
+          "wheel_speed": 7.055727764405278,
+          "contact_speed": 15.001943429062468,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.03350607691205711,
+          "normal_load": 9.3195,
+          "step": 192
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.5280586920865729,
+          "lateral_slip": 0.012401682424112659,
+          "wheel_speed": 7.082591828112952,
+          "contact_speed": 15.007357290733665,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.008732500286280687,
+          "normal_load": 4.65975,
+          "step": 192
+        }
+      }
+    },
+    {
+      "step": 204,
+      "time": 1.6999999999999964,
+      "pose": {
+        "x": 0.22965472324897965,
+        "y": 2.854740164796397,
+        "theta": 1.4941200036201507
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.3173771272253794,
+          "lateral_slip": -0.0009433293112146579,
+          "wheel_speed": 9.797183566292752,
+          "contact_speed": 14.35226382976396,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.0006642343513185363,
+          "normal_load": 9.3195,
+          "step": 204
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.3173136225960914,
+          "lateral_slip": 0.0002697232277517614,
+          "wheel_speed": 9.803655258337061,
+          "contact_speed": 14.36040850209725,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.00018992247043669427,
+          "normal_load": 4.65975,
+          "step": 204
+        }
+      }
+    },
+    {
+      "step": 216,
+      "time": 1.799999999999996,
+      "pose": {
+        "x": 0.3365091906960799,
+        "y": 4.247523187848531,
+        "theta": 1.4943927445057583
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.3168306451575298,
+          "lateral_slip": -0.0005571966507611492,
+          "wheel_speed": 9.388700041924592,
+          "contact_speed": 13.742858890515517,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.0003923435341987089,
+          "normal_load": 9.3195,
+          "step": 216
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.3169217604611332,
+          "lateral_slip": 0.00036625639286502754,
+          "wheel_speed": 9.39276043567345,
+          "contact_speed": 13.750636299019458,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0002578951747165727,
+          "normal_load": 4.65975,
+          "step": 216
+        }
+      }
+    },
+    {
+      "step": 228,
+      "time": 1.8999999999999957,
+      "pose": {
+        "x": 0.4386583045561626,
+        "y": 5.581775438732948,
+        "theta": 1.4944131791098687
+      },
+      "motors": {
+        "left_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.31645561765877106,
+          "lateral_slip": -0.0003786953563273965,
+          "wheel_speed": 9.001558548352703,
+          "contact_speed": 13.168945251983766,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": 0.0002666539260118788,
+          "normal_load": 9.3195,
+          "step": 228
+        },
+        "right_motor": {
+          "command": 0.4,
+          "slip_ratio": -0.31645257934979953,
+          "lateral_slip": 0.0004108817164734102,
+          "wheel_speed": 9.006788681496683,
+          "contact_speed": 13.176538173356418,
+          "applied_longitudinal_impulse": 0.009333333333333332,
+          "applied_lateral_impulse": -0.0002893175767632413,
+          "normal_load": 4.65975,
+          "step": 228
+        }
+      }
+    }
+  ]
+}

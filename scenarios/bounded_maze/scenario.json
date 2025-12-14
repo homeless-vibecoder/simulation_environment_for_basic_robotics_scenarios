@@ -1,0 +1,25 @@
+{
+  "id": "bounded_maze",
+  "name": "bounded_maze",
+  "description": null,
+  "thumbnail": null,
+  "help": null,
+  "seed": null,
+  "metadata": {},
+  "environment": "world.json",
+  "robots": [
+    {
+      "id": "robot",
+      "ref": "robot.json",
+      "robot": "robot.json",
+      "controller": "controller",
+      "spawn_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": null,
+      "metadata": {}
+    }
+  ]
+}

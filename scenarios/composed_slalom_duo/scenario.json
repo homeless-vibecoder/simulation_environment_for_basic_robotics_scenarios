@@ -1,0 +1,30 @@
+{
+  "id": "composed_slalom_duo",
+  "name": "Slalom Duo",
+  "description": "Two slalom robots on the shared slalom course with simple alternating gaits.",
+  "environment": "../assets/environments/slalom_world.json",
+  "seed": 314,
+  "robots": [
+    {
+      "id": "left_lane",
+      "ref": "../assets/robots/slalom_robot.json",
+      "spawn_pose": [
+        -0.25,
+        0.0,
+        0.0
+      ],
+      "controller": "controller_duo"
+    },
+    {
+      "id": "right_lane",
+      "ref": "../assets/robots/slalom_robot.json",
+      "spawn_pose": [
+        0.25,
+        0.0,
+        0.0
+      ],
+      "controller": "controller_duo"
+    }
+  ],
+  "thumbnail": "thumbnail.png"
+}

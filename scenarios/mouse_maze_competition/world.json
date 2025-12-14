@@ -1,0 +1,132 @@
+{
+  "name": "mouse_maze_world",
+  "seed": 1337,
+  "gravity": [
+    0.0,
+    0.0
+  ],
+  "timestep": 0.008333333333333333,
+  "terrain": [],
+  "metadata": {},
+  "drawings": [
+    {
+      "kind": "wall",
+      "thickness": 0.04,
+      "points": [
+        [
+          -0.2,
+          0.2
+        ],
+        [
+          0.55,
+          0.2
+        ]
+      ],
+      "color": [
+        180,
+        200,
+        230
+      ]
+    },
+    {
+      "kind": "wall",
+      "thickness": 0.04,
+      "points": [
+        [
+          -0.6,
+          -0.9
+        ],
+        [
+          -0.6,
+          0.7
+        ],
+        [
+          -0.2,
+          0.7
+        ],
+        [
+          -0.2,
+          -0.9
+        ]
+      ],
+      "color": [
+        140,
+        170,
+        210
+      ]
+    },
+    {
+      "kind": "wall",
+      "thickness": 0.04,
+      "points": [
+        [
+          0.15,
+          -0.5
+        ],
+        [
+          0.15,
+          0.9
+        ],
+        [
+          0.55,
+          0.9
+        ],
+        [
+          0.55,
+          -0.5
+        ]
+      ],
+      "color": [
+        150,
+        180,
+        220
+      ]
+    },
+    {
+      "kind": "wall",
+      "thickness": 0.04,
+      "points": [
+        [
+          -1.0,
+          -0.9
+        ],
+        [
+          1.0,
+          -0.9
+        ],
+        [
+          1.0,
+          0.9
+        ],
+        [
+          -1.0,
+          0.9
+        ],
+        [
+          -1.0,
+          -0.9
+        ]
+      ],
+      "color": [
+        120,
+        150,
+        190
+      ]
+    }
+  ],
+  "bounds": {
+    "min_x": -1.2,
+    "min_y": -1.0,
+    "max_x": 1.2,
+    "max_y": 1.0
+  },
+  "shape_objects": [],
+  "custom_objects": [],
+  "designer_state": {
+    "creation_context": "robot",
+    "mode": "select",
+    "brush_kind": "mark",
+    "brush_thickness": 0.05,
+    "shape_tool": "rect"
+  }
+}

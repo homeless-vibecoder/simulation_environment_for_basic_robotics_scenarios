@@ -1,0 +1,135 @@
+{
+  "name": "slalom_field",
+  "seed": 21,
+  "gravity": [
+    0.0,
+    0.0
+  ],
+  "timestep": 0.008333333333333333,
+  "terrain": [],
+  "metadata": {
+    "description": "Zig-zag slalom posts with open sightlines and generous bounds."
+  },
+  "drawings": [
+    {
+      "kind": "wall",
+      "thickness": 0.08,
+      "points": [
+        [
+          -0.75,
+          -1.0
+        ],
+        [
+          -0.75,
+          -0.45
+        ]
+      ],
+      "color": [
+        120,
+        170,
+        200
+      ]
+    },
+    {
+      "kind": "wall",
+      "thickness": 0.08,
+      "points": [
+        [
+          0.0,
+          -0.75
+        ],
+        [
+          0.0,
+          -0.25
+        ]
+      ],
+      "color": [
+        120,
+        170,
+        200
+      ]
+    },
+    {
+      "kind": "wall",
+      "thickness": 0.08,
+      "points": [
+        [
+          0.75,
+          -0.5
+        ],
+        [
+          0.75,
+          0.0
+        ]
+      ],
+      "color": [
+        120,
+        170,
+        200
+      ]
+    },
+    {
+      "kind": "wall",
+      "thickness": 0.08,
+      "points": [
+        [
+          0.0,
+          -0.05
+        ],
+        [
+          0.0,
+          0.45
+        ]
+      ],
+      "color": [
+        120,
+        170,
+        200
+      ]
+    },
+    {
+      "kind": "wall",
+      "thickness": 0.08,
+      "points": [
+        [
+          -0.55,
+          0.25
+        ],
+        [
+          -0.55,
+          0.85
+        ]
+      ],
+      "color": [
+        120,
+        170,
+        200
+      ]
+    },
+    {
+      "kind": "wall",
+      "thickness": 0.08,
+      "points": [
+        [
+          0.55,
+          0.55
+        ],
+        [
+          0.55,
+          1.05
+        ]
+      ],
+      "color": [
+        120,
+        170,
+        200
+      ]
+    }
+  ],
+  "bounds": {
+    "min_x": -1.2,
+    "min_y": -1.2,
+    "max_x": 1.2,
+    "max_y": 1.2
+  }
+}

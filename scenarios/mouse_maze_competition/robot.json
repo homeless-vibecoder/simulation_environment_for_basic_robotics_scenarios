@@ -1,0 +1,154 @@
+{
+  "spawn_pose": [
+    -0.95,
+    -0.75,
+    0.0
+  ],
+  "bodies": [
+    {
+      "name": "chassis",
+      "points": [
+        [
+          0.1525,
+          -0.1875
+        ],
+        [
+          0.155,
+          0.17250000000000001
+        ],
+        [
+          -0.0575,
+          0.17250000000000001
+        ],
+        [
+          -0.06,
+          -0.19
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "can_move": true,
+      "mass": 1.2,
+      "inertia": 0.02,
+      "material": {
+        "color": [
+          80,
+          140,
+          220
+        ],
+        "roughness": 0.5,
+        "friction": 0.8,
+        "traction": null,
+        "restitution": 0.1,
+        "reflect_line": 0.4,
+        "reflect_distance": 0.5,
+        "thickness": 0.02,
+        "custom": {}
+      }
+    }
+  ],
+  "joints": [],
+  "actuators": [
+    {
+      "name": "left_motor",
+      "type": "motor",
+      "body": "chassis",
+      "mount_pose": [
+        -0.0175,
+        0.29000000000000004,
+        0.0
+      ],
+      "params": {
+        "max_force": 2.0
+      }
+    },
+    {
+      "name": "motor_3",
+      "type": "motor",
+      "body": "chassis",
+      "mount_pose": [
+        0.015,
+        0.0875,
+        0.0
+      ],
+      "params": {
+        "max_force": 2.0
+      }
+    },
+    {
+      "name": "right_motor",
+      "type": "motor",
+      "body": "chassis",
+      "mount_pose": [
+        0.0,
+        -0.07,
+        0.0
+      ],
+      "params": {
+        "max_force": 2.0
+      }
+    }
+  ],
+  "sensors": [
+    {
+      "name": "front_distance",
+      "type": "distance",
+      "body": "chassis",
+      "mount_pose": [
+        0.12,
+        0.0,
+        0.0
+      ],
+      "params": {
+        "preset": "range_short"
+      }
+    },
+    {
+      "name": "imu",
+      "type": "imu",
+      "body": "chassis",
+      "mount_pose": [
+        -0.0019665679227627644,
+        -0.0037133728308949288,
+        0.0
+      ],
+      "params": {}
+    },
+    {
+      "name": "line_array",
+      "type": "line",
+      "body": "chassis",
+      "mount_pose": [
+        0.08,
+        0.0,
+        0.0
+      ],
+      "params": {
+        "preset": "line_basic"
+      }
+    }
+  ],
+  "measurements": [],
+  "controller_module": "controller_mouse"
+}

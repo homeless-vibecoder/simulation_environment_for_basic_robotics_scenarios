@@ -1,0 +1,1543 @@
+[
+  {
+    "time": 0.0,
+    "step": 0,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.8,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.92,
+          "min_y": -0.12,
+          "max_x": -0.68,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {},
+    "tag": "start"
+  },
+  {
+    "time": 0.1,
+    "step": 1,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.788,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            0.12,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.908,
+          "min_y": -0.12,
+          "max_x": -0.668,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": -0.648,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_1"
+  },
+  {
+    "time": 0.2,
+    "step": 2,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.764,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            0.24,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.884,
+          "min_y": -0.12,
+          "max_x": -0.644,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": -0.624,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_2"
+  },
+  {
+    "time": 0.30000000000000004,
+    "step": 3,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.728,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            0.36,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.848,
+          "min_y": -0.12,
+          "max_x": -0.608,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": -0.588,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_3"
+  },
+  {
+    "time": 0.4,
+    "step": 4,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.6799999999999999,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            0.48,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.7999999999999999,
+          "min_y": -0.12,
+          "max_x": -0.5599999999999999,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": -0.5399999999999999,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_4"
+  },
+  {
+    "time": 0.5,
+    "step": 5,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.6199999999999999,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            0.6,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.7399999999999999,
+          "min_y": -0.12,
+          "max_x": -0.4999999999999999,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": -0.47999999999999987,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_5"
+  },
+  {
+    "time": 0.6,
+    "step": 6,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.5479999999999999,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            0.72,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.6679999999999999,
+          "min_y": -0.12,
+          "max_x": -0.42799999999999994,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": -0.4079999999999999,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_6"
+  },
+  {
+    "time": 0.7,
+    "step": 7,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.4639999999999999,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            0.84,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.5839999999999999,
+          "min_y": -0.12,
+          "max_x": -0.3439999999999999,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": -0.3239999999999999,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_7"
+  },
+  {
+    "time": 0.7999999999999999,
+    "step": 8,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.3679999999999999,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            0.96,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.4879999999999999,
+          "min_y": -0.12,
+          "max_x": -0.2479999999999999,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": -0.22799999999999987,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_8"
+  },
+  {
+    "time": 0.8999999999999999,
+    "step": 9,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.2599999999999999,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            1.08,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.3799999999999999,
+          "min_y": -0.12,
+          "max_x": -0.1399999999999999,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": -0.11999999999999988,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_9"
+  },
+  {
+    "time": 0.9999999999999999,
+    "step": 10,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.13999999999999987,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            1.2000000000000002,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.2599999999999999,
+          "min_y": -0.12,
+          "max_x": -0.01999999999999988,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": 1.3877787807814457e-16,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_10"
+  },
+  {
+    "time": 1.0999999999999999,
+    "step": 11,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": -0.00799999999999984,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            1.3200000000000003,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -0.12799999999999984,
+          "min_y": -0.12,
+          "max_x": 0.11200000000000015,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": 0.13200000000000017,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_11"
+  },
+  {
+    "time": 1.2,
+    "step": 12,
+    "objects": [
+      {
+        "name": "floor",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.9,
+          "restitution": 0.1,
+          "reflectivity": 0.1,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {}
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": -1.5,
+          "min_y": -1.0,
+          "max_x": 1.5,
+          "max_y": 1.0
+        },
+        "metadata": {}
+      },
+      {
+        "name": "line_marker",
+        "pose": {
+          "x": 0.4,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Polygon",
+        "material": {
+          "friction": 0.2,
+          "restitution": 0.1,
+          "reflectivity": 0.8,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {
+            "line_intensity": 1.0
+          },
+          "custom": {
+            "color": "black"
+          }
+        },
+        "can_move": false,
+        "state": {
+          "linear_velocity": [
+            0.0,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.36000000000000004,
+          "min_y": -0.6,
+          "max_x": 0.44,
+          "max_y": 0.6
+        },
+        "metadata": {}
+      },
+      {
+        "name": "scout",
+        "pose": {
+          "x": 0.1360000000000002,
+          "y": 0.0,
+          "theta": 0.0
+        },
+        "shape": "Circle",
+        "material": {
+          "friction": 0.5,
+          "restitution": 0.1,
+          "reflectivity": 0.2,
+          "traction": 0.6,
+          "permeability_tags": [],
+          "field_signals": {},
+          "custom": {
+            "role": "demo_robot"
+          }
+        },
+        "can_move": true,
+        "state": {
+          "linear_velocity": [
+            1.4400000000000004,
+            0.0
+          ],
+          "angular_velocity": 0.0
+        },
+        "bbox": {
+          "min_x": 0.01600000000000021,
+          "min_y": -0.12,
+          "max_x": 0.2560000000000002,
+          "max_y": 0.12
+        },
+        "metadata": {}
+      }
+    ],
+    "metadata": {
+      "sensor_point": {
+        "x": 0.27600000000000025,
+        "y": 0.0
+      },
+      "line_hits": []
+    },
+    "tag": "step_12"
+  }
+]

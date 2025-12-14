@@ -1,0 +1,35 @@
+{
+  "id": "mouse_maze_competition",
+  "name": "Mouse Maze Competition",
+  "description": "Seeded head-to-head run in a bounded maze; two mice start on the left and race to the far end.",
+  "environment": "../assets/environments/mouse_maze_world.json",
+  "seed": 1337,
+  "robots": [
+    {
+      "id": "blue",
+      "ref": "../assets/robots/generic_robot.json",
+      "spawn_pose": [
+        -0.95,
+        -0.75,
+        0.0
+      ],
+      "controller": "controller_mouse",
+      "role": "lane_bottom"
+    },
+    {
+      "id": "red",
+      "ref": "../assets/robots/generic_robot.json",
+      "spawn_pose": [
+        -0.95,
+        0.75,
+        0.0
+      ],
+      "controller": "controller_mouse",
+      "role": "lane_top"
+    }
+  ],
+  "thumbnail": "thumbnail.png",
+  "metadata": {
+    "notes": "World coordinates for spawn; deterministic seed for repeatability."
+  }
+}

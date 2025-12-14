@@ -1,0 +1,32 @@
+{
+  "id": "composed_team_line",
+  "name": "Team Line Pair",
+  "description": "Two generic line followers sharing the generic field; demonstrates multi-robot descriptor loading.",
+  "environment": "../assets/environments/generic_world.json",
+  "seed": 42,
+  "robots": [
+    {
+      "id": "alpha",
+      "ref": "../assets/robots/generic_robot.json",
+      "spawn_pose": [
+        -0.12,
+        0.12,
+        0.0
+      ],
+      "controller": "controller_team",
+      "role": "leader"
+    },
+    {
+      "id": "bravo",
+      "ref": "../assets/robots/generic_robot.json",
+      "spawn_pose": [
+        0.12,
+        -0.05,
+        0.0
+      ],
+      "controller": "controller_team",
+      "role": "partner"
+    }
+  ],
+  "thumbnail": "thumbnail.png"
+}

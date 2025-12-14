@@ -1,0 +1,51 @@
+{
+  "id": "composed_generic_trio",
+  "name": "Generic Trio Flow",
+  "description": "Three generic robots start staggered on the shared course to exercise namespacing and per-robot logging.",
+  "environment": "../assets/environments/generic_world.json",
+  "seed": 101,
+  "robots": [
+    {
+      "id": "blue",
+      "ref": "../assets/robots/generic_robot.json",
+      "spawn_pose": [
+        -0.6,
+        -0.32,
+        0.02
+      ],
+      "controller": "controller_duo_generic",
+      "role": "lead"
+    },
+    {
+      "id": "green",
+      "ref": "../assets/robots/generic_robot.json",
+      "spawn_pose": [
+        -0.75,
+        0.0,
+        0.0
+      ],
+      "controller": "controller_duo_generic",
+      "role": "middle"
+    },
+    {
+      "id": "orange",
+      "ref": "../assets/robots/generic_robot.json",
+      "spawn_pose": [
+        -0.6,
+        0.32,
+        -0.02
+      ],
+      "controller": "controller_duo_generic",
+      "role": "trailing"
+    }
+  ],
+  "thumbnail": "thumbnail.png",
+  "metadata": {
+    "tags": [
+      "multi",
+      "descriptor",
+      "generic"
+    ],
+    "notes": "Keeps speeds low to avoid pileups; suitable for smoke checks."
+  }
+}

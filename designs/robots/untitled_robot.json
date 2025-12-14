@@ -1,0 +1,76 @@
+{
+  "spawn_pose": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "bodies": [
+    {
+      "name": "body",
+      "points": [
+        [
+          0.1,
+          -0.06
+        ],
+        [
+          0.1,
+          0.06
+        ],
+        [
+          -0.08,
+          0.06
+        ],
+        [
+          -0.08,
+          -0.06
+        ]
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "can_move": true,
+      "mass": 1.0,
+      "inertia": 1.0,
+      "material": {
+        "color": [
+          180,
+          180,
+          180
+        ],
+        "roughness": 0.5,
+        "friction": 0.8,
+        "traction": null,
+        "restitution": 0.1,
+        "reflect_line": 0.5,
+        "reflect_distance": 0.5,
+        "thickness": 0.02,
+        "custom": {}
+      }
+    }
+  ],
+  "joints": [],
+  "actuators": [],
+  "sensors": [],
+  "measurements": [],
+  "controller_module": "controller"
+}

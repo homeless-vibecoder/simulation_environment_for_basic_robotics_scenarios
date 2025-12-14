@@ -1,0 +1,22 @@
+{
+  "name": "world",
+  "seed": null,
+  "gravity": [
+    0.0,
+    0.0
+  ],
+  "timestep": 0.008333333333333333,
+  "terrain": [],
+  "metadata": {},
+  "drawings": [],
+  "bounds": null,
+  "shape_objects": [],
+  "custom_objects": [],
+  "designer_state": {
+    "creation_context": "robot",
+    "mode": "select",
+    "brush_kind": "mark",
+    "brush_thickness": 0.05,
+    "shape_tool": "rect"
+  }
+}

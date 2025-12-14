@@ -1,0 +1,5 @@
+{
+  "name": "composed_slalom",
+  "environment": "../assets/environments/slalom_world.json",
+  "robot": "../assets/robots/slalom_robot.json"
+}

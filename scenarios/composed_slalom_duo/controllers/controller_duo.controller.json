@@ -1,0 +1,12 @@
+{
+  "name": "controller_duo",
+  "sections": {
+    "imports": "import math\n",
+    "init": "self.sim = sim\n    self.left_target = 0.1   \n    self.right_target = 0.1\n",
+    "step": "# Basic line-follow: slow when distance sees obstacle\n    dist = sensors.get(\"front_distance\", None)\n    line = sensors.get(\"line_array\", None)\n    if dist is not None and dist < 0.4 and False:\n        self.left_target = 0.1\n        self.right_target = 0.1\n    elif isinstance(line, list) and len(line) >= 2 and False:\n        error = (line[-1] - line[0]) if len(line) >= 2 else 0.0\n        k = 0.5\n        base = 0.4\n        self.left_target = base - k * error\n        self.right_target = base + k * error\n    self.left_target = max(-1.0, min(1.0, self.left_target))\n    self.right_target = max(-1.0, min(1.0, self.right_target))\n    self._apply()\n",
+    "helpers": "def _apply(self) -> None:\n        motor_left = self.sim.motors.get(\"left_motor\")\n        motor_right = self.sim.motors.get(\"right_motor\")\n        if motor_left:\n            motor_left.command(self.left_target, self.sim, self.sim.dt)\n        if motor_right:\n            motor_right.command(self.right_target, self.sim, self.sim.dt)\n\ndef get_state(self):\n        return {\"left\": self.left_target, \"right\": self.right_target}\n\ndef set_state(self, state):\n        self.left_target = state.get(\"left\", self.left_target)\n        self.right_target = state.get(\"right\", self.right_target)\n"
+  },
+  "help": "imports: modules and constants\n__init__: set up state; self.sim and self.robot_id available\nstep: runs every timestep; signature step(sensors, dt)\nhelpers: optional class methods or utilities\n\n(migrated from legacy controller.py)",
+  "meta": {},
+  "version": 1
+}

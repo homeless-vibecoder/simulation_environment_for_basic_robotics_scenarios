@@ -1,0 +1,40 @@
+{
+  "id": "composed_generic_duo",
+  "name": "Generic Duo Chase",
+  "description": "Two generic robots share the flat testbed and run a mild line-follow script with slight lane bias.",
+  "environment": "../assets/environments/generic_world.json",
+  "seed": 4242,
+  "robots": [
+    {
+      "id": "alpha",
+      "ref": "../assets/robots/generic_robot.json",
+      "spawn_pose": [
+        -0.45,
+        -0.28,
+        0.0
+      ],
+      "controller": "controller_duo_generic",
+      "role": "lower_lane"
+    },
+    {
+      "id": "bravo",
+      "ref": "../assets/robots/generic_robot.json",
+      "spawn_pose": [
+        -0.45,
+        0.28,
+        0.0
+      ],
+      "controller": "controller_duo_generic",
+      "role": "upper_lane"
+    }
+  ],
+  "thumbnail": "thumbnail.png",
+  "metadata": {
+    "tags": [
+      "multi",
+      "descriptor",
+      "generic"
+    ],
+    "notes": "Keeps speed conservative to avoid collisions; uses shared generic assets."
+  }
+}
